@@ -26,6 +26,11 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 /*
+
+
+
+
+
  * 1. Copy resources/conf/*.yaml to sharding-proxy conf folder and overwrite original file.
  *    If you want to use master-slave, please select config-master_slave.yaml
  *    If you want to use sharding only, please select config-sharding.yaml
