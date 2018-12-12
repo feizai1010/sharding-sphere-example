@@ -23,6 +23,13 @@ public class ShardingDataSource {
     public static void main(String[] args) throws SQLException {
         ShardingDataSource shardingDataSource=new ShardingDataSource();
         DataSource dataSource = shardingDataSource.basicSet();
+
+
+
+        ////
+
+
+        
         process(dataSource);
     }
     public DataSource basicSet()throws SQLException{
